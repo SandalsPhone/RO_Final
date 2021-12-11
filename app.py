@@ -18,7 +18,7 @@ def index():
     x = pred["Unnamed: 0"]
     
     ax.plot(x,y)
-    ax.set(xlabel="Total Hari Lewat", ylabel = "Harga Cabai Merah")
+    ax.set(xlabel="Total Hari Lewat Setelah 26 November 2021", ylabel = "Harga Cabai Merah")
     ax.set_title("Prediksi Harga Cabai Rawit Merah Menggunakan Efek Musim")
     
     buf = BytesIO()
